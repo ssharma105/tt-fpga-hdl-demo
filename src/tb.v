@@ -26,7 +26,7 @@ module tb (
     assign segments = outputs[6:0];
 
     // instantiate the DUT
-    tt_um_template dut(
+    tt_um_fpga_hdl_demo dut(
         `ifdef GL_TEST
             .vccd1( 1'b1),
             .vssd1( 1'b0),
