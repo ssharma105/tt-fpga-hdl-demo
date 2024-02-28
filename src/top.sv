@@ -467,5 +467,3 @@ endmodule
 
 // Undefine macros defined by SandPiper.
 `undef BOGUS_USE
-
-            
