@@ -2,7 +2,7 @@ SHELL := /bin/bash # Use bash syntax
 SEED = 10
 PROJECT = bitstream
 
-TOPCELL = tt_um_fpga_hdl_demo
+TOPCELL = tt_um_template
 PIN_DEF = tt3_asic_sim.pcf
 SOURCES = top.sv
 
